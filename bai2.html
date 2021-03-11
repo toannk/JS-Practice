@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tìm kiếm dữ liệu</title>
+</head>
+<body>
+    <h1>Tìm kiếm dữ liệu</h1>
+    <table border="1" cellspacing="0" cellpadding="5">
+        <tr>
+            <td>Nhập tiêu đề</td>
+            <td>
+                <input type="text" id="title" value=""/> <br/>
+                <a href="#" onclick="return show_search_advance()" id="show_search_advance">Tìm kiếm nâng cao</a>
+            </td>
+        </tr>
+        <tr id="search_advance">
+            <td>Chọn chuyên mục</td>
+            <td>
+                <select id="category">
+                    <option value="1">PHP</option>
+                    <option value="2">Javascript</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input type="button" id="btn_search" value="Tìm kiếm"/>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
